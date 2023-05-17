@@ -1,182 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>实验十-2021212205015</title>
-    <link rel="stylesheet" href="static/css/CSS.css">
-</head>
-<body>
-    <div class="header">
-        <div class="header-left">
-            <div class="header-logo"><img src="static/img/logo_01.svg" alt="木村屋" width="264" height="56"></div> <!--顶部左上角的logo-->
-            <div class="header-nav">
-                <div class="heaer-nav-list">
-                    <div class="header-nav-item">企業情報</div>
-                    <div class="header-nav-item">おしらせ</div>
-                    <div class="header-nav-item">キムラヤのパン</div>
-                    <div class="header-nav-item">直営店舗の商品一覧</div>
-                    <div class="header-nav-item">直営店舗リスト</div>
-                    <div class="header-nav-item">メディア情報</div>
-                    <div class="header-nav-item">オンラインショップ</div>
-                    <div class="header-nav-item">お問い合わせ</div>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>实验11_2021212205015</title>
+        
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+        <div class="main ">
+            <div class="top container-fluid">
+                <div class=" top-img">
+                    <img src="https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg" alt="Adobe, Inc." id="img" width="24px" height="21.24px">
+                    <span class="top-img-text">Adobe</span>
                 </div>
-                <ul class="header-sns">
-                    <li class="header-sns-item"><img src="static/img/icon_sns_instagram.svg" alt="Instagram" ></li>
-                    <li class="header-sns-item"><img src="static/img/icon_sns_twitter.svg" alt="Twitter" ></li>
-                    <li class="header-sns-item"><img src="static/img/icon_sns_facebook.svg" alt="Facebook" ></li>
-                </ul>
-            </div>
-        </div>
-       <!--<div class="header-right">
-            <div class="header-right-img">
-                <img class="isPC" src="static/img/mv_01.jpg" alt="" width="1000" height="1000">
-                <img class="isPC" src="static/img/mv_02.jpg" alt="" width="1000" height="1000">
-                <img class="isPC" src="static/img/mv_03.jpg" alt="" width="1000" height="1000">
-                <img class="isPC" src="static/img/mv_04.jpg" alt="" width="1000" height="1000">
-                <img class="isPC" src="static/img/mv_05.jpg" alt="" width="1000" height="1000">
-                <img class="isPC" src="static/img/mv_06.jpg" alt="" width="1000" height="1000">
-            </div>
-        </div>--> 
-        <div class="box">
-            <a href="#" class = 'left jiantou'>&lt;</a>
-            <a href="#" class = 'right jiantou'>&gt;</a>
-            <ul class = 'pic'>
-                <li>
-                    <a href="#"><img src="static/img/mv_01.jpg" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="static/img/mv_02.jpg" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="static/img/mv_03.jpg" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="static/img/mv_04.jpg" alt=""></a>
-                </li>
-                 <li>
-                    <a href="#"><img src="static/img/mv_05.jpg" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="static/img/mv_06.jpg" alt=""></a>
-                </li>
-            </ul>
-           <ul class="lis">
-            </ul>
-        </div>
-        <script src="static/js/animation.js"></script>
-        <script src="static/js/JS.js"></script>
-    </div>
-
-    <div class="upper">
-         <div class="upper-line">
-            <div class="upper-text">
-                <div text-left>メディア</div>
-                <div text-mid>2023.05.01</div>
-                <div text-right>TBSテレビ「ひるおび」にて『たらこあんぱん』が紹介されました！</div>
-            </div>
-         </div>
-    </div>
-
-    <div class="box-mid">
-        <div class="box-mid-left">
-            <div class="mid-left-text1">木村屋總本店について</div>
-            <div class="mid-left-text2">私たちはパン文化を育てます。</div>
-            <div class="mid-left-text2">昔、外国からやってきたパンに餡を包んだように、</div>
-            <div class="mid-left-text2">新しい愉しみを食卓へ。</div>
-            <div class="mid-left-text2">そして、次世代へ。</div>
-        </div>
-        <div class="box-mid-right">
-            <div class="mid-right-img"><img src="static/img/logo_02.svg" alt=""></div>
-
-        </div>
-    </div>
-
-    <div class="box-mids">
-        <div class="box-mids-item">
-            <a data-en="WHOLE SALE"   href="#">
-            <div class="box-mids-item-img">
-                <img class="img1" src="static/img/main_01.jpg" alt="">
-            </div>
-            <div class="box-mids-item-text">
-                キムラヤの<br>パン</div>
-            </a>
-        </div>
-        <div class="box-mids-item2"">
-            <a data-en="COMPANY STORE ITEMS" href="#">
-                <div class="box-mids-item-img">
-                    <img class="img2" src="static/img/main_02.jpg" alt="">
+                <div class="top-text">
+                    <div class="top-text-t">Creativity & Design</div>
+                    <div class="top-text-t">PDF & E-signatures</div>
+                    <div class="top-text-t">Marketing & Commerce</div>
+                    <div class="top-text-t">Help & Support</div>
                 </div>
-                <div class="box-mids-item-text">
-                    直営店舗の<br>商品一覧</div>
-                </a>
-        </div>
-        <div class="box-mids-item">
-            <a data-en="IPPIN"   href="#">
-            <div class="box-mids-item-img">
-                <img class="img1" src="static/img/main_03.jpg" alt="">
-            </div>
-            <div class="box-mids-item-text">
-                逸品</div>
-            </a>
-        </div>
-        <div class="box-mids-item2"">
-            <a data-en="ONLINE SHOP" href="#">
-                <div class="box-mids-item-img">
-                    <img class="img2" src="static/img/main_04.jpg" alt="">
-                </div>
-                <div class="box-mids-item-text">
-                    オンライン<br>ショップ</div>
-                </a>
-        </div>
-    </div>
-    <div class="box-bottom">
-        <div class="box-bottom-left">
-            <img src="static/img/logo_02.svg" alt="">
-        </div>
-        <div class="box-bottom-mid">
-            <div class="bottom-mid-text">
-                <div class="mid-text-txt1">企業情報</div>
-                <div class="mid-text-txt">採用情報</div>
-                <div class="mid-text-txt">あるご質問</div>
-                <div class="mid-text-txt">サイトマップ</div>
-                <div class="mid-text-txt">個人情報の取り扱いについて</div>
-                <div class="mid-text-txt">銀座木村家のサイト</div>
-            </div>
-        </div>
-        <div class="box-bottom-right">
-            <div class="bottom-right-s">
-                <div class="right-s-line">
-                    <div class="right-s-text">オンラインショップ</div>
-                    <img src="static/img/icon_cart.svg" alt="">
+
+                <div class="SignIn">
+                    Sign In
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" focusable="false">
+                        <path d="M14 2A8 8 0 0 0 7.4 14.5L2.4 19.4a1.5 1.5 0 0 0 2.1 2.1L9.5 16.6A8 8 0 1 0 14 2Zm0 14.1A6.1 6.1 0 1 1 20.1 10 6.1 6.1 0 0 1 14 16.1Z"></path>
+                    </svg>
                 </div>
             </div>
-            <div class="bottom-right-h">
-                <div class="right-s-text">お問い合わせ</div>
-                <div class="right-s-imgt">
-                    <img src="static/img/icon_tel.svg" alt="">
-                    <div class="s-imgt-text">
-                        <div class="s-imgt-text1">0120-01-4873</div>
-                        <div class="s-imgt-text2">9:00〜17:30（日・祝日を除く）</div>
+            <div class="img ">
+                <img id="bigimg" src="img/0517img1.png" alt="">
+            </div>
+            <div class="text container-fluid">
+                <div class="text-big">
+                    Do it all with Creative Cloud.
+                </div>
+                <div class="text-mid">
+                    Create faster with AI features in illustrator,Premiere Pro,and Lightroom.Collaborate with Share for Review in Photoshop and illustrator.Make standout content quickly witth Adobe Express.Edit,sign,and manage PDFs with Acrobat.
+                </div>
+                <div class="blue-sss">
+                    <div class="blue-but">
+                        Start free trial
+                    </div>
+                    <div class="blue-text">
+                        See all plans
                     </div>
                 </div>
-                <div class="right-s-imgt">
-                    <img src="static/img/icon_mail.svg" alt="">
-                    <div class="s-imgt-text">
-                        <div class="s-imgt-text3">メールでのお問い合わせはこちら</div>
+
+            </div>
+            <div class="text-box container-fluid">
+                <div class="mid-box">
+                    <div class="img-text container-fluid">
+                        <div class="img-text-big ">
+                            Make.Beliexe.Photoshop.
+                        </div>
+                        <div class="img-text-mid ">
+                            Go wherever your imagination takes you.
+                        </div>
+                        <div class="img-text-small ">
+                            Learn more
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-box ">
+
+                    <div class="img-text container-fluid">
+                        <div class="img-text-big ">
+                            Creative Cloud Photography plan.
+                        </div>
+
+                        <div class="img-text-mid ">
+                            The future of photography.Here today.
+                        </div>
+
+                        <div class="img-text-small ">
+                            Learn more
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-box ">
+
+                    <div class="img-text container-fluid">
+                        <div class="img-text-mid  underbroder">
+                            Explore Creative Cloud
+                        </div>
+
+                        <div class="img-text-small ">
+                            Start a free trial
+                        </div>
+
+                        <div class="img-text-small ">
+                            See plans&pricing
+                        </div>
+
+                        <div class="img-text-mid  underbroder">
+                            See what you can do
+                        </div>
+
+                        <div class="img-text-small ">
+                            Photography
+                        </div>
+
+                        <div class="img-text-small ">
+                            Graphic design
+                        </div>
+
+                        <div class="img-text-small">
+                            Video
+                        </div>
+
+                        <div class="img-text-small">
+                            Illustration
+                        </div>
+
+                        <div class="img-text-small ">
+                            UI and UX
+                        </div>
+
+                        <div class="img-text-small ">
+                            3D and AR
+                        </div>
+
+                        <div class="img-text-small ">
+                            Social media
+                        </div>
+
+                    </div>
+                </div>
+                <div class="big-box ">
+
+                    <div class="img-text container-fluid">
+                        <div class="img-text-big ">
+                            Video editing that's always a cut above.
+                        </div>
+
+                        <div class="img-text-mid">
+                            Create mazing videos with the power of Premiere Pro and the portability of Premiere Rush.
+                        </div>
+
+                        <div class="img-text-small ">
+                            Learn more
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mid-box ">
+
+                    <div class="img-text container-fluid">
+                        <div class="img-text-big ">
+                            Get it done with Acrobat.
+                        </div>
+
+                        <div class="img-text-mid ">
+                            Edit,share,and e-sign all of your PDFs-all one place.
+                        </div>
+
+                        <div class="img-text-small">
+                            Start free trial
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mid-box">
+                    <div class="img-text container-fluid">
+                        <div class="img-text-big ">
+                            Make.Beliexe.Photoshop.
+                        </div>
+                        <div class="img-text-mid ">
+                            Go wherever your imagination takes you.
+                        </div>
+                        <div class="img-text-small ">
+                            Learn more
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-box ">
+
+                    <div class="img-text container-fluid">
+                        <div class="img-text-big ">
+                            Creative Cloud Photography plan.
+                        </div>
+
+                        <div class="img-text-mid ">
+                            The future of photography.Here today.
+                        </div>
+
+                        <div class="img-text-small ">
+                            Learn more
+                        </div>
+                    </div>
+                </div>
+                <div class="mid-box ">
+
+                    <div class="img-text container-fluid">
+                        <div class="img-text-mid  underbroder">
+                            Explore Creative Cloud
+                        </div>
+
+                        <div class="img-text-small ">
+                            Start a free trial
+                        </div>
+
+                        <div class="img-text-small ">
+                            See plans&pricing
+                        </div>
+
+                        <div class="img-text-mid  underbroder">
+                            See what you can do
+                        </div>
+
+                        <div class="img-text-small ">
+                            Photography
+                        </div>
+
+                        <div class="img-text-small ">
+                            Graphic design
+                        </div>
+
+                        <div class="img-text-small">
+                            Video
+                        </div>
+
+                        <div class="img-text-small">
+                            Illustration
+                        </div>
+
+                        <div class="img-text-small ">
+                            UI and UX
+                        </div>
+
+                        <div class="img-text-small ">
+                            3D and AR
+                        </div>
+
+                        <div class="img-text-small ">
+                            Social media
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="bottom-right-x">
-                    <div class="bottom-right-x-img">
-                        <img src="static/img/icon_01.png" alt="">
-                        <img src="static/img/icon_02.png" alt="">
-                        <img src="static/img/icon_03.png" alt="">
-                        <img src="static/img/icon_04.svg" alt="">
+            <div class="bottom-box">
+                <div class="bottom-box-contain">
+                    <div class="bottom-top">
+                        <div class="bottom-top-text">
+                            <div class="bottom-text-title">Shop for</div>
+                            <div class="bottom-text-content">Creative Cloud</div>
+                            <div class="bottom-text-content">Photoshop</div>
+                            <div class="bottom-text-content">Adobe Express</div>
+                            <div class="bottom-text-content">Photography</div>
+                            <div class="bottom-text-content">Premiere Pro</div>
+                            <div class="bottom-text-content">Adobe Stock</div>
+                            <div class="bottom-text-content">Elements Family</div>
+                        </div>
+                        <div class="bottom-top-text">
+                            <div class="bottom-cube">
+                                <div class="bottom-text-title">For business</div>
+                                <div class="bottom-text-content">Creative Cloud for teams</div>
+                                <div class="bottom-text-content">Creative Cloud for enterprise</div>
+                                <div class="bottom-text-content">Document Cloud for business</div>
+                            </div>
+                            <div class="bottom-cube">
+                                <div class="bottom-text-title">For education</div>
+                                <div class="bottom-text-content">Discounts for syudents and teachers</div>
+                                <div class="bottom-text-content">Schools and universities</div>
+                                <div class="bottom-text-content">Digital Learning Solutions</div>
+                            </div>
+                            <div class="bottom-cube">
+                                <div class="bottom-text-title">For mobile</div>
+                                <div class="bottom-text-content">Apps for IOS</div>
+                                <div class="bottom-text-content">Apps for Androld</div>
+                            </div>
+                        </div>
+                        <div class="bottom-top-text">
+                                <div class="bottom-text-title">Experience Cloud</div>
+                                <div class="bottom-text-content">what is Experience Cloud?</div>
+                                <div class="bottom-text-content">Analytics</div>
+                                <div class="bottom-text-content">Experience Manager</div>
+                                <div class="bottom-text-content">Commerce</div>
+                                <div class="bottom-text-content">Marketo Engage</div>
+                                <div class="bottom-text-content">Workfront</div>
+                                <div class="bottom-text-content">Terms of Use</div>
+                        </div>
+                        <div class="bottom-top-text">
+                            <div class="bottom-cube">
+                                <div class="bottom-text-title">Support</div>
+                                <div class="bottom-text-content">Download and Install</div>
+                                <div class="bottom-text-content">Help Center</div>
+                                <div class="bottom-text-content">Adobe Support Communtiy</div>
+                                <div class="bottom-text-content">Enterprise Support</div>
+                                <div class="bottom-text-content">Genuine software</div>
+                            </div>
+                            <div class="bottom-cube">
+                                <div class="bottom-text-title">Resources</div>
+                                <div class="bottom-text-content">Adobe Blog</div>
+                                <div class="bottom-text-content">Adobe Developer</div>
+                            </div>
+                            <div class="bottom-cube">
+                                <div class="bottom-text-title">Adobe Account</div>
+                                <div class="bottom-text-content">Log in to your account</div>
+                            </div>
+                        </div>
+                        <div class="bottom-top-text">
+                            <div class="bottom-text-title">Adobe</div>
+                            <div class="bottom-text-content">About</div>
+                            <div class="bottom-text-content">Careers</div>
+                            <div class="bottom-text-content">Newsroom</div>
+                            <div class="bottom-text-content">Corporate responsibility</div>
+                            <div class="bottom-text-content">Investor Relations</div>
+                        </div>
                     </div>
+                    <div class="bottom-mid">
+                        <div class="bottom-mid-text">
+                            <div class="bottom-mid-left">Featured products</div>
+                            <div class="bottom-mid-right">
+                                <div class="ss"><img alt="" src="https://www.adobe.com/content/dam/cc/icons/reader_appicon_64_grayscale.svg">Adobe Acrobat Reader</div>
+                                <div class="ss"><img alt="" src="https://www.adobe.com/content/dam/cc/icons/Adobe_Express_FP_Icon.svg">Adobe Express</div>
+                                <div class="ss"><img alt="" src="https://www.adobe.com/content/dam/cc/icons/ps_appicon_64_grayscale.svg">Photoshop</div>
+                                <div class="ss"><img alt="" src="https://www.adobe.com/content/dam/cc/icons/ai_appicon_64_grayscale.svg">illustrator</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-bottom">
+                        <div class="bottom-bottom-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" focusable="false">
+                                <path d="M50 23.8c-0.2-3.3-1-6.5-2.4-9.5l0 0C43.7 5.9 35.4 0.4 26.2 0h-2.4C14.6 0.4 6.3 5.9 2.4 14.3l0 0c-1.4 3-2.2 6.2-2.4 9.5l0 0v2.4l0 0c0.2 3.3 1 6.5 2.4 9.5l0 0c4 8.4 12.2 13.9 21.4 14.3h2.4c9.2-0.4 17.5-5.9 21.4-14.3l0 0c1.4-3 2.2-6.2 2.4-9.5l0 0V23.8zM47.6 23.8h-9.5c0-3.2-0.4-6.4-1.2-9.5H45C46.6 17.2 47.5 20.5 47.6 23.8zM33.6 11.9h-7.4V2.6C29.3 3.3 31.9 7.1 33.6 11.9zM23.8 2.6v9.3h-7.4C18.1 7.1 20.7 3.3 23.8 2.6zM23.8 14.3v9.5h-9.5c0.1-3.2 0.6-6.4 1.4-9.5H23.8zM23.8 26.2v9.5h-8.1c-0.8-3.1-1.3-6.3-1.4-9.5H23.8zM23.8 38.1v9.3c-3.1-0.7-5.7-4.5-7.4-9.3H23.8zM26.2 47.4v-9.3h7.4C31.9 42.9 29.3 46.7 26.2 47.4zM26.2 35.7v-9.5h9.5c-0.1 3.2-0.6 6.4-1.4 9.5H26.2zM26.2 23.8v-9.5h8.1c0.8 3.1 1.3 6.3 1.4 9.5H26.2zM43.3 11.9h-7.1c-0.9-3.1-2.4-6.1-4.5-8.6C36.4 4.8 40.5 7.8 43.3 11.9zM18.6 3.3c-2.2 2.5-3.8 5.4-4.8 8.6H6.7C9.6 7.8 13.8 4.8 18.6 3.3zM5 14.3h8.1c-0.7 3.1-1.1 6.3-1.2 9.5H2.4C2.5 20.5 3.4 17.2 5 14.3zM2.4 26.2h9.5c0 3.2 0.4 6.4 1.2 9.5H5C3.4 32.8 2.5 29.5 2.4 26.2zM6.4 38.1h7.4c0.9 3.1 2.4 6.1 4.5 8.6 -4.7-1.5-8.8-4.5-11.7-8.6H6.4zM31.4 46.7c2.2-2.5 3.8-5.4 4.8-8.6h7.4C40.6 42.2 36.3 45.3 31.4 46.7zM45 35.7h-8.1c0.7-3.1 1.1-6.3 1.2-9.5h9.5C47.5 29.5 46.6 32.8 45 35.7z"></path>
+                            </svg>
+                            <div class="bottom-bottom-left-text">Change region</div>
+                        </div>
+                        <div class="botttom-bottom-mid">
+                            <img alt="Adobe on Facebook" src="https://www.adobe.com/content/dam/cc/icons/social-icon-facebook.svg">
+                            <img alt="Adobe on Twitter" src="https://www.adobe.com/content/dam/cc/icons/social-icon-twitter.svg">
+                            <img alt="Adobe on LinkedIn" src="https://www.adobe.com/content/dam/cc/icons/social-icon-linkedin.svg">
+                            <img alt="Adobe on Instagram" src="https://www.adobe.com/content/dam/cc/icons/social-icon-instagram.svg">
+                        </div>
+                        <div class="bottom-bottom-right">
+                            <div class="bottom-bottom-right-l">
+                                Copyright 2023 Adobe All rights reserved
+                            </div>
+                            <div class="bottom-bottom-right-m">
+                                / Privacy / Terms of Use / Cookie preferences / Do not sell or share my personal information /
+                            </div>
+                            <div class="bottom-bottom-right-r">
+                                <img alt="" src="https://www.adobe.com/content/dam/cc/icons/adchoices-small.svg">
+                                <div>AdChoices</div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</body>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+
 </html>
